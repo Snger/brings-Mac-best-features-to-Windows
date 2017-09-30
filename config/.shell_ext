@@ -1,0 +1,96 @@
+
+alias ls='ls --show-control-chars'
+alias ll='ls -al --show-control-chars | less'
+
+alias subl='/d/App/Sublime\ Text\ 3/subl.exe '
+
+alias ws='cd /e/workspace'
+alias wsgh='cd /e/workspace/gitHub'
+alias tm='tmux attach || tmux new'
+alias nginx-config='cd /c/nginx/conf/conf.d'
+alias nginx-html='cd /c/nginx/html'
+alias hostdir='cd /c/Windows/System32/Drivers/etc'
+alias btcdir='cd /e/APP/Bitcoin/daemon'
+alias btc-d='/e/APP/Bitcoin/daemon/bitcoind.exe -datadir=../BitcoinData/ -testnet '
+alias btc-test='/e/APP/Bitcoin/daemon/bitcoin-cli.exe -datadir=../BitcoinData/ -testnet '
+
+refreshShell() {
+    source ~/.babunrc
+}
+
+tmux-dev(){
+  tmux \
+  new -s workspace -n happycoding \; \
+  send-keys 'refreshShell' C-m \; \
+  send-keys 'cd /path/to/your/git/repo/' C-m \; \
+  send-keys 'clear' C-m \; \
+  send-keys 'git status' C-m \; \
+  split-window -v -p 35 \; \
+  send-keys 'refreshShell' C-m \; \
+  send-keys 'wstm' C-m \; \
+  send-keys 'cd /path/to/your/project/' C-m \; \
+  send-keys 'clear' C-m \; \
+  send-keys 'pwd' C-m \; \
+  split-window -h -p 30 \; \
+  clock-mode -t 2 \; \
+  select-pane -t 1 \; \
+  select-pane -t 0 \; \
+  new-window -n temp \; \
+  send-keys 'babun check' C-m \; \
+  send-keys 'ws' C-m \; \
+  split-window -v -p 35 \; \
+  send-keys 'clear' C-m \; \
+  split-window -h -p 30 \; \
+  clock-mode -t 2 \; \
+  select-pane -t 1 \; \
+  select-pane -t 0 \; \
+  selectw -t happycoding \; 
+}
+tmd(){
+  tmux attach -t workspace || tmux-dev
+}
+
+
+# checkout prev (older) revision
+git_prev() {
+    git checkout HEAD~
+}
+# checkout next (newer) commit
+git_next() {
+#    BRANCH=`git show-ref | grep $(git show-ref -s -- HEAD) | sed 's|.*/\(.*\)|\1|' | grep -v HEAD | sort | uniq`
+    BRANCH=`git show-ref | grep your-git-repo-branch-name | sed 's|.*/\(.*\)|\1|' | grep -v HEAD | sort | uniq`
+    HASH=`git rev-parse $BRANCH`
+    PREV=`git rev-list --topo-order HEAD..$HASH | tail -1`
+    git checkout $PREV
+}
+
+
+mvUnderscores(){
+  for file in ./* ; do
+     mv "$file" "$(echo $file|sed 's/\([a-z0-9]\)\([A-Z]\)/\1-\L\2/g')"
+  done 
+}
+
+testReplaceInDepth(){
+  find . -depth -exec sed 's/\([a-z0-9]\)\([A-Z]\)/\1_\L\2/g' {} +
+}
+
+testReplaceInDepth2(){
+  find my_root_dir -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
+}
+
+testReplaceInDepth3(){
+for SRC in `find my_root_dir -depth`
+do
+    DST=`dirname "${SRC}"`/`basename "${SRC}" | tr '[A-Z]' '[a-z]'`
+    if [ "${SRC}" != "${DST}" ]
+    then
+        [ ! -e "${DST}" ] && mv -T "${SRC}" "${DST}" || echo "${SRC} was not renamed"
+    fi
+done
+}
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
+
