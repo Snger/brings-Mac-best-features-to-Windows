@@ -6,7 +6,7 @@
 - [Windows shell - Babun](#windows-shell---babun)
 	- [Babun Plugin](#babun-plugin)
 	- [tmux](#tmux)
-- [OSX like shortcut - AutoHotkey](#osx-like-shortcut---autohotkey)
+- [Shortcut like Mac - AutoHotkey](#shortcut-like-mac---autohotkey)
 - [Launcher for Windows - WoX](#launcher-for-windows---wox)
 	- [WoX Plugin](#wox-plugin)
 - [Chinese Readme](#chinese-readme)
@@ -29,10 +29,10 @@
 ### tmux
 > [tmux](https://github.com/tmux/tmux) is a "terminal multiplexer", it enables a number of terminals (or windows) to be accessed and controlled from a single terminal. tmux is intended to be a simple, modern, BSD-licensed alternative to programs such as GNU screen.
 
-<a name="osx-like-shortcut---autohotkey"></a>
-## OSX like shortcut - AutoHotkey
+<a name="shortcut-like-mac---autohotkey"></a>
+## Shortcut like Mac - AutoHotkey
 > [AutoHotkey](https://www.autohotkey.com/) - The ultimate automation scripting language for Windows.
-> Add [OSX shortcut file](./AHK/osx-shortcut.ahk) to Windows Start-up.
+> Add [shortcut file](./AHK/osx-shortcut.ahk) to Windows Start-up.
 
 <a name="launcher-for-windows---wox"></a>
 ## Launcher for Windows - WoX
