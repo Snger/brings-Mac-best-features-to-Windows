@@ -10,6 +10,7 @@
 >> *同步系统时间*
 > - gitHub
 >> - ssh [help](https://help.github.com/articles/connecting-to-github-with-ssh/)
+>>> `mkdir .ssh & cd .ssh`
 >>> `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 >>> `eval $(ssh-agent -s)`
 >>> `ssh-add ~/.ssh/id_rsa`
