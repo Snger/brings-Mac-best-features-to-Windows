@@ -8,6 +8,7 @@
 	- gitHub
 	- babun
 	- chrome
+	- Chocolatey
 - 开发相关软件
 	- node.js, yarn
 	- sublime text 3
@@ -53,10 +54,15 @@ ssh -T git@git.coding.net
 > 默认浏览器， 管理启动页-从上次停下的地方继续， 拓展程序 - 开发者模式 - SwitchyOmega - 导入/导出 - 从备份文件恢复
 > send to kindle - yourmail_p@kindle.cn
 
+### Chocolatey
+> [Chocolatey](https://chocolatey.org/)
+> choco install -y nodejs.install python2
+
 ## 开发相关软件
 ### node.js, yarn
 > [nvm](https://github.com/creationix/nvm): Node Version Manager - Simple bash script to manage multiple active node.js versions
-> jshit, 
+> npm install cnpm -g --registry=https://registry.npm.taobao.org
+> cnpm i -g jshit typescript bower webpack gulp react-native-cli vue-cli node-inspector node-sass
 
 ### sublime text 3
 > - package control
@@ -90,6 +96,7 @@ ssh -T git@git.coding.net
 ### GitHub
 
 ### Android Studio
+> choco install -y jdk8
 
 ### sublime text 3
 
