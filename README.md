@@ -23,7 +23,7 @@
 
 <a name="babun-plugin"></a>
 ### Babun Plugin
-> manually running `<babun installation dir>\update.bat`
+> manually running `<babun installation dir>\update.bat` [babun issue #720](https://github.com/babun/babun/issues/720)
 > Running `babun update`
 > pact install tmux
 

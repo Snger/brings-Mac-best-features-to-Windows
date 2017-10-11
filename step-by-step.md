@@ -15,8 +15,10 @@
 >>> `eval $(ssh-agent -s)`
 >>> `ssh-add ~/.ssh/id_rsa`
 >>> `ssh -T git@github.com`
+>>> `ssh -T git@git.coding.net`
 > - babun
->> manually running `<babun installation dir>\update.bat`
+>> manually running `<babun installation dir>\update.bat` [babun issue #720](https://github.com/babun/babun/issues/720)
+>> Running `babun update`
 >> pact install tmux
 > - chrome
 >> 默认浏览器， 管理启动页-从上次停下的地方继续， 拓展程序 - 开发者模式 - SwitchyOmega - 导入/导出 - 从备份文件恢复
@@ -27,7 +29,14 @@
 >> [nvm](https://github.com/creationix/nvm): Node Version Manager - Simple bash script to manage multiple active node.js versions
 > - vs2017
 >> web开发包 + 中英文语言包 >> VsVim + Vue.js Pack 2017 >> 重启
-> - dotPeek, ReSharper
+>> 选项 - NuGet包管理器 - 程序包源 - 添加
+>> 选项 - VsVim - Keyboard - [Ctrl + R]>VsVim
+>> 选项 - Debugging(调试) - Symbols(符号) - 从dotPeek加载， 设置缓存符号路径， 加载所有模块
+>> debug config: uncheck only my code(去除-启用“仅我的代码”)
+>> Environment(环境) - Fonts and Colors(字体和颜色) - 16
+> - dotPeek
+>> Tools - Symbol server - All assemblies
+> - ReSharper
 > - zeal
 >> AngularJS, Apache HTTP Server, Bash, Bootstrap 3, C++, CSS, Gulp, HTML, Ionic, JavaScript, Markdown, MySQL, Nginx, NodeJS, React, RequireJS, Spring Framework, TypeScript, Vim, VueJS, JQuery, JQuery Mobile, JQuery UI
 >> Linux Man Page
