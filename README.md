@@ -3,6 +3,7 @@
 
 <!-- MarkdownTOC autolink="true" autoanchor="true" bracket="round" -->
 
+- [github repo](#github-repo)
 - [Windows shell - Babun](#windows-shell---babun)
 	- [Babun Plugin](#babun-plugin)
 	- [tmux](#tmux)
@@ -12,6 +13,10 @@
 - [Chinese Readme](#chinese-readme)
 
 <!-- /MarkdownTOC -->
+
+<a name="github-repo"></a>
+## github repo
+> [github link](https://github.com/Snger/brings-Mac-best-features-to-Windows)
 
 <a name="windows-shell---babun"></a>
 ## Windows shell - Babun

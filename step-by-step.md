@@ -2,6 +2,7 @@
 
 <!-- MarkdownTOC -->
 
+- github repo
 - 安装基础软件
 	- 语言
 	- explorer
@@ -17,15 +18,20 @@
 	- dotPeek
 	- ReSharper
 	- zeal
-	- GitHub
 	- Android Studio
 	- sublime text 3
 	- GoldenDict
 	- GIMP
+- 后续
+	- Boxstarter
 
 <!-- /MarkdownTOC -->
 
+## github repo
+> [github link](https://github.com/Snger/brings-Mac-best-features-to-Windows)
+
 ## 安装基础软件
+> 7zip, git, AutoHotkey
 > 关闭 cortana 相关
 > *同步系统时间*
 
@@ -35,7 +41,6 @@
 
 ### explorer
 > 显示文件拓展名， 显示隐藏文件， 登陆时还原上一个文件夹窗口
-> - /software 目录
 
 ### wox
 > wpm install clipboard history
@@ -105,8 +110,6 @@ ssh -T git@git.coding.net
 >> AngularJS, Apache HTTP Server, Bash, Bootstrap 3, C++, CSS, Gulp, HTML, Ionic, JavaScript, Markdown, MySQL, Nginx, NodeJS, React, RequireJS, Spring Framework, TypeScript, Vim, VueJS, JQuery, JQuery Mobile, JQuery UI
 >> Linux Man Page
 
-### GitHub
-
 ### Android Studio
 > choco install -y jdk8
 
@@ -122,3 +125,11 @@ ssh -T git@git.coding.net
 ### GIMP
 >> 窗口 - 单窗口模式
 >> gimp-help-version-zh_CN-setup
+
+## 后续
+> [Cloud Automation in a Windows World](https://www.infoq.com/articles/cloud-automation-windows)
+> [在Windows平台上实现云自动化](http://www.open-open.com/news/view/e66cf5)
+> [Windows 下有哪些能极大地提高工作效率的软件？](https://www.zhihu.com/question/22919326)
+
+### Boxstarter
+> Repeatable, reboot resilient windows environment installations made easy using Chocolatey packages. When its time to repave either bare metal or virtualized instances, locally or on a remote machine, Boxstarter can automate both trivial and highly complex installations. Compatible with all Windows versions from Windows 7/2008 R2 forward.
