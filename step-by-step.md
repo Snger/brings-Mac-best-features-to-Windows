@@ -2,9 +2,11 @@
 
 <!-- MarkdownTOC -->
 
+- github repo
 - 安装基础软件
 	- 语言
 	- explorer
+	- wox
 	- gitHub
 	- babun
 	- chrome
@@ -19,23 +21,34 @@
 	- SumatraPDF
 	- ReSharper
 	- zeal
-	- GitHub
 	- Android Studio
 	- sublime text 3
 	- GoldenDict
 	- GIMP
+- 后续
+	- Boxstarter
 
 <!-- /MarkdownTOC -->
 
+## github repo
+> [github link](https://github.com/Snger/brings-Mac-best-features-to-Windows)
+
 ## 安装基础软件
+> 7zip, git, AutoHotkey
+> 关闭 cortana 相关
+> *同步系统时间*
+
 ### 语言
 > 下载语言包、语音包
 > 键盘： 美国英语-国际， 微软双拼
-> *同步系统时间*
 
 ### explorer
 > 显示文件拓展名， 显示隐藏文件， 登陆时还原上一个文件夹窗口
-> - /software 目录
+
+### wox
+> wpm install clipboard history
+> wpm install close screen
+> wpm install ip address
 
 ### gitHub
 > - ssh [help](https://help.github.com/articles/connecting-to-github-with-ssh/)
@@ -55,6 +68,7 @@ ssh -T git@git.coding.net
 
 ### chrome
 > 默认浏览器， 管理启动页-从上次停下的地方继续， 拓展程序 - 开发者模式 - SwitchyOmega - 导入/导出 - 从备份文件恢复
+> devtool - preferences - theme - dark
 > send to kindle - yourmail_p@kindle.cn
 
 ### Chocolatey
@@ -81,11 +95,14 @@ ssh -T git@git.coding.net
 
 ### vs2017
 >> web开发包 + 中英文语言包 >> VsVim + Vue.js Pack 2017 >> 重启
+>> 选项 - 环境 - 导入和导出设置 - 使用团队设置文件
 >> 选项 - NuGet包管理器 - 程序包源 - 添加
->> 选项 - VsVim - Keyboard - [Ctrl + R]>VsVim
+>> 选项 - VsVim - Keyboard - [Ctrl + R],[Ctrl + B] -> VsVim
 >> 选项 - Debugging(调试) - Symbols(符号) - 从dotPeek加载， 设置缓存符号路径， 加载所有模块
 >> debug config: uncheck only my code(去除-启用“仅我的代码”)
+>> Go to Tools -> Options -> Debugging -> General and turn off the setting Enable JavaScript Debugging for ASP.NET (Chrome and IE).
 >> Environment(环境) - Fonts and Colors(字体和颜色) - 16
+>> In Visual Studio 2017, It seems that this behavior is turned off by default. It can be enabled under Tools > Options > Text Editors > C# > Advanced > Outlining > "Collapse #regions when collapsing to definitions"
 
 ### dotPeek
 >> Tools - Symbol server - All assemblies
@@ -99,8 +116,6 @@ ssh -T git@git.coding.net
 ### zeal
 >> AngularJS, Apache HTTP Server, Bash, Bootstrap 3, C++, CSS, Gulp, HTML, Ionic, JavaScript, Markdown, MySQL, Nginx, NodeJS, React, RequireJS, Spring Framework, TypeScript, Vim, VueJS, JQuery, JQuery Mobile, JQuery UI
 >> Linux Man Page
-
-### GitHub
 
 ### Android Studio
 > choco install -y jdk8
@@ -117,3 +132,11 @@ ssh -T git@git.coding.net
 ### GIMP
 >> 窗口 - 单窗口模式
 >> gimp-help-version-zh_CN-setup
+
+## 后续
+> [Cloud Automation in a Windows World](https://www.infoq.com/articles/cloud-automation-windows)
+> [在Windows平台上实现云自动化](http://www.open-open.com/news/view/e66cf5)
+> [Windows 下有哪些能极大地提高工作效率的软件？](https://www.zhihu.com/question/22919326)
+
+### Boxstarter
+> Repeatable, reboot resilient windows environment installations made easy using Chocolatey packages. When its time to repave either bare metal or virtualized instances, locally or on a remote machine, Boxstarter can automate both trivial and highly complex installations. Compatible with all Windows versions from Windows 7/2008 R2 forward.

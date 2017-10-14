@@ -1,0 +1,77 @@
+# Boxstarter config script
+# https://gist.github.com/Snger/5ebcff7365d50521b928867b048004c5
+
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+Enable-RemoteDesktop
+
+# chocolatey
+# cinst chocolatey
+# cinst chocolateygui
+
+# boxstarter
+# cinst boxstarter
+# cinst boxstarter.chocolatey
+# cinst boxstarter.bootstrapper
+# cinst boxstarter.hyperv
+# cinst boxstarter.winconfig
+
+# base
+# cinst dotnet4.5
+# cinst dotnet4.6.1
+# cinst nuget.commandline
+cinst 7zip.install
+cinst python3
+cinst everything
+cinst git.install
+# cinst git-lfs
+# cinst github
+# cinst poshgit
+cinst autohotkey.install
+cinst wox
+cinst goldendict.install
+# eudic
+cinst googlechrome
+cinst babun
+# cinst mactype
+
+# apple icloud
+cinst icloud
+
+# dev
+cinst nodejs.install
+cinst yarn
+cinst sublimetext3
+cinst visualstudio2017community
+# cinst visualstudio2015community
+# cinst mysql
+cinst mysql.workbench
+cinst datagrip
+cinst dotpeek
+cinst zeal.install
+# cinst resharper
+# cinst resharper-platform
+# cinst postman
+
+# Android Studio
+cinst python2 jdk8
+cinst androidstudio
+cinst android-sdk
+cinst virtualbox
+cinst vagrant
+cinst fiddler4
+
+# software
+cinst gimp
+cinst calibre
+cinst sumatrapdf.install
+cinst libreoffice
+# cinst 1password
+# cinst dropbox
+# cinst wechat
+# cinst tim
+# cinst spotify
+# cinst evernote
+# cinst f.lux
+
+# cinst Microsoft-Hyper-V-All -source windowsFeatures
+# cinst IIS-WebServerRole -source windowsfeatures
