@@ -120,6 +120,11 @@ ssh -T git@git.coding.net
 ### Android Studio
 > choco install -y jdk8
 > file - Settings - Install JetBrain plugin - IdeaVim
+> enable VT-x in BIOS
+> - Power on/Reboot the machine and open the BIOS (as per Step 1).
+> - Open the Processor submenu The processor settings menu may be hidden in the Chipset, Advanced CPU Configuration or Northbridge.
+> - Enable Intel Virtualization Technology (also known as Intel VT-x) or AMD-V depending on the brand of the processor. The virtualization extensions may be labelled Virtualization Extensions, Vanderpool or various other names depending on the OEM and system BIOS.
+> - Select Save & Exit.
 
 ### sublime text 3
 
