@@ -112,6 +112,7 @@ ssh -T git@git.coding.net
 
 ### Android Studio
 > choco install -y jdk8
+> file - Settings - Install JetBrain plugin - IdeaVim
 
 ### sublime text 3
 
