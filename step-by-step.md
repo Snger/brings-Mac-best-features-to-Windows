@@ -16,6 +16,9 @@
 	- sublime text 3
 	- vs2017
 	- dotPeek
+	- DataGrip
+	- MySQL Workbench
+	- SumatraPDF
 	- ReSharper
 	- zeal
 	- Android Studio
@@ -103,6 +106,10 @@ ssh -T git@git.coding.net
 
 ### dotPeek
 >> Tools - Symbol server - All assemblies
+
+### DataGrip
+### MySQL Workbench
+### SumatraPDF
 
 ### ReSharper
 
