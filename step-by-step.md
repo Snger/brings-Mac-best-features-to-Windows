@@ -22,7 +22,6 @@
 	- ReSharper
 	- zeal
 	- Android Studio
-	- sublime text 3
 	- GoldenDict
 	- GIMP
 - 后续
@@ -97,7 +96,7 @@ ssh -T git@git.coding.net
 - import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())
 ````
 >- Install Package
->> NeoVintageous, ConvertToUTF8, BracketHighlighter, SidebarEnhancements, afterglow-theme, Sublime SFTP, TypeScript, LESS, Pretty JSON, DocBlockr, JavaScriptNext, SublimeLinter 3 (or Sublime-JSHint), HTML-CSS-JS Prettify, MarkdownTOC, JSX
+>> NeoVintageous, ConvertToUTF8, BracketHighlighter, SidebarEnhancements, afterglow-theme, Compare Side-By-Side, Sublime SFTP, TypeScript, LESS, Pretty JSON, DocBlockr, JavaScriptNext, SublimeLinter 3 (or Sublime-JSHint), HTML-CSS-JS Prettify, MarkdownTOC, JSX
 
 ### vs2017
 >> 单个组件 - 代码工具 - 类设计器
@@ -137,8 +136,6 @@ ssh -T git@git.coding.net
 >> Open the Processor submenu The processor settings menu may be hidden in the Chipset, Advanced CPU Configuration or Northbridge.
 >> Enable Intel Virtualization Technology (also known as Intel VT-x) or AMD-V depending on the brand of the processor. The virtualization extensions may be labelled Virtualization Extensions, Vanderpool or various other names depending on the OEM and system BIOS.
 >> Select Save & Exit.
-
-### sublime text 3
 
 ### GoldenDict
 > right click tool bar - Search Pane (ctrl + s)
