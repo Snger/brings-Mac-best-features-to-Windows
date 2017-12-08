@@ -17,7 +17,7 @@
 	- vs2017
 	- dotPeek
 	- DataGrip
-	- MySQL Workbench
+	- MySQL
 	- SumatraPDF
 	- ReSharper
 	- zeal
@@ -27,6 +27,7 @@
 	- GIMP
 - 后续
 	- Boxstarter
+	- libreoffice
 
 <!-- /MarkdownTOC -->
 
@@ -37,6 +38,8 @@
 > 7zip, git, AutoHotkey
 > 关闭 cortana 相关
 > *同步系统时间*
+> dns
+> Control pane - Credential Mannage
 
 ### 语言
 > 下载语言包、语音包
@@ -44,6 +47,7 @@
 
 ### explorer
 > 显示文件拓展名， 显示隐藏文件， 登陆时还原上一个文件夹窗口
+> toolbar - pin (on the right)
 
 ### wox
 > wpm install clipboard history
@@ -79,7 +83,9 @@ ssh -T git@git.coding.net
 ### node.js, yarn
 > [nvm](https://github.com/creationix/nvm): Node Version Manager - Simple bash script to manage multiple active node.js versions
 > npm install cnpm -g --registry=https://registry.npm.taobao.org
-> cnpm i -g jshit typescript bower webpack gulp react-native-cli vue-cli node-inspector node-sass
+> cnpm i -g jshit typescript bower webpack gulp react-native-cli vue-cli node-inspector
+> npm config set registry https://registry.npm.taobao.org
+> npm config set disturl https://npm.taobao.org/dist
 
 ### sublime text 3
 > - package control
@@ -91,9 +97,10 @@ ssh -T git@git.coding.net
 - import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())
 ````
 >- Install Package
->> ConvertToUTF8, BracketHighlighter, SidebarEnhancements, afterglow-theme, Sublime SFTP, TypeScript, LESS, Pretty JSON, DocBlockr, JavaScriptNext, SublimeLinter 3 (or Sublime-JSHint), HTML-CSS-JS Prettify, MarkdownTOC, JSX
+>> NeoVintageous, ConvertToUTF8, BracketHighlighter, SidebarEnhancements, afterglow-theme, Sublime SFTP, TypeScript, LESS, Pretty JSON, DocBlockr, JavaScriptNext, SublimeLinter 3 (or Sublime-JSHint), HTML-CSS-JS Prettify, MarkdownTOC, JSX
 
 ### vs2017
+>> 单个组件 - 代码工具 - 类设计器
 >> web开发包 + 中英文语言包 >> VsVim + Vue.js Pack 2017 >> 重启
 >> 选项 - 环境 - 导入和导出设置 - 使用团队设置文件
 >> 选项 - NuGet包管理器 - 程序包源 - 添加
@@ -108,7 +115,9 @@ ssh -T git@git.coding.net
 >> Tools - Symbol server - All assemblies
 
 ### DataGrip
-### MySQL Workbench
+### MySQL
+> MySQL Server, MySQL Notifier, MySQL Workbench
+
 ### SumatraPDF
 
 ### ReSharper
@@ -118,18 +127,26 @@ ssh -T git@git.coding.net
 >> Linux Man Page
 
 ### Android Studio
-> choco install -y jdk8
-> file - Settings - Install JetBrain plugin - IdeaVim
-> enable VT-x in BIOS
-> - Power on/Reboot the machine and open the BIOS (as per Step 1).
-> - Open the Processor submenu The processor settings menu may be hidden in the Chipset, Advanced CPU Configuration or Northbridge.
-> - Enable Intel Virtualization Technology (also known as Intel VT-x) or AMD-V depending on the brand of the processor. The virtualization extensions may be labelled Virtualization Extensions, Vanderpool or various other names depending on the OEM and system BIOS.
-> - Select Save & Exit.
+> - choco install -y jdk8
+> - Configure the ANDROID_HOME environment variable
+>> Open the System pane under System and Security in the Control Panel, then click on Change settings.... Open the Advanced tab and click on Environment Variables.... Click on New... to create a new ANDROID_HOME user variable that points to the path to your Android SDK:
+>> c:\Users\YOUR_USERNAME\AppData\Local\Android\Sdk
+> - File - Settings - Install JetBrain plugin - IdeaVim
+> - Enable VT-x in BIOS
+>> Power on/Reboot the machine and open the BIOS (as per Step 1).
+>> Open the Processor submenu The processor settings menu may be hidden in the Chipset, Advanced CPU Configuration or Northbridge.
+>> Enable Intel Virtualization Technology (also known as Intel VT-x) or AMD-V depending on the brand of the processor. The virtualization extensions may be labelled Virtualization Extensions, Vanderpool or various other names depending on the OEM and system BIOS.
+>> Select Save & Exit.
 
 ### sublime text 3
 
 ### GoldenDict
->> <Longman Pronunciation Dictionary 3rd Ed.>, <collins英汉双解学习词典>, <Oxford Advanced Learner's English-Chinese Dictionary, extended fourth edition.>, <Concise Oxford English Dictionary and Thesaurus>, <Collins (En-En) (for Lingvo x3)>, <English(US) Morphology>, <简明英汉汉英词典>
+> right click tool bar - Search Pane (ctrl + s)
+> Preferences - Interface - ESC key hides main window
+> Preferences - Hotkeys - Use the following hotkey to show or hide the main window: Alt+Shlft+M
+> Preferences - Audio - Auto-pronounce words in main window
+> Preferences - Audio - Auto-pronounce words in scan popup
+> <Longman Pronunciation Dictionary 3rd Ed.>, <collins英汉双解学习词典>, <Oxford Advanced Learner's English-Chinese Dictionary, extended fourth edition.>, <Concise Oxford English Dictionary and Thesaurus>, <Collins (En-En) (for Lingvo x3)>, <English(US) Morphology>, <简明英汉汉英词典>
 > - [欧陆词典](http://www.eudic.net/eudic/windows.aspx)
 >> 词典： <collins双解词典>, <英汉-汉英词典>, <有道在线词典>, <听力原声例句>
 >> 设置 - 快捷键 - 开启|关闭鼠标自动取词 - SHIFT+ALT+M， 其他快捷键 - 无
@@ -146,3 +163,5 @@ ssh -T git@git.coding.net
 
 ### Boxstarter
 > Repeatable, reboot resilient windows environment installations made easy using Chocolatey packages. When its time to repave either bare metal or virtualized instances, locally or on a remote machine, Boxstarter can automate both trivial and highly complex installations. Compatible with all Windows versions from Windows 7/2008 R2 forward.
+
+### libreoffice
