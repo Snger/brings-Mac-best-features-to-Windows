@@ -96,7 +96,14 @@ ssh -T git@git.coding.net
 - import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())
 ````
 >- Install Package
->> NeoVintageous, ConvertToUTF8, BracketHighlighter, SidebarEnhancements, afterglow-theme, Compare Side-By-Side, Sublime SFTP, TypeScript, LESS, Pretty JSON, DocBlockr, JavaScriptNext, SublimeLinter 3 (or Sublime-JSHint), HTML-CSS-JS Prettify, MarkdownTOC, JSX
+>> NeoVintageous, Emacs Pro Essentials, ConvertToUTF8, BracketHighlighter, SidebarEnhancements, afterglow-theme, Compare Side-By-Side, Sublime SFTP, TypeScript, LESS, Pretty JSON, DocBlockr, JavaScriptNext, SublimeLinter 3 (or Sublime-JSHint), HTML-CSS-JS Prettify, MarkdownTOC, JSX
+> User keymap
+	{ "keys": ["alt+x"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    {"keys": ["alt+shift+-"], "command": "redo"},
+> paste from global clipboard `ctrl_y` (emacs)
+> paste from sublime text vim clipboard `p` (vim)
+> save, `ctrl+x,ctrl+s` (emacs), or `:w` (vim)
+> new file, `ctrl+x,ctrl+f` (emacs)
 
 ### vs2017
 >> 单个组件 - 代码工具 - 类设计器

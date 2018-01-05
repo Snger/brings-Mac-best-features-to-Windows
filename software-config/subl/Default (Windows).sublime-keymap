@@ -1,0 +1,13 @@
+[
+	{"keys": ["alt+x"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    {"keys": ["ctrl+x", "p"], "command": "prev_view"},
+    {"keys": ["ctrl+x", "n"], "command": "next_view"},
+    {"keys": ["ctrl+x", "0"], "command": "sbp_close_current_view"},
+    {"keys": ["alt+shift+-"], "command": "redo"},
+    {"keys": ["ctrl+alt+a"], "command": "sbp_move_to_paragraph", "args": {"direction": -1},
+        "context": [ {"key": "sbp_use_alt_bindings"}]
+    },
+    {"keys": ["ctrl+alt+e"], "command": "sbp_move_to_paragraph", "args": {"direction": 1},
+        "context": [ {"key": "sbp_use_alt_bindings"}]
+    },
+]
