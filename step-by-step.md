@@ -98,7 +98,9 @@ ssh -T git@git.coding.net
 >- Install Package
 >> NeoVintageous, Emacs Pro Essentials(sublemacspro)
 >> ConvertToUTF8, BracketHighlighter, SidebarEnhancements, afterglow-theme, Compare Side-By-Side, Sublime SFTP, DocBlockr
+>> SyncedSideBar
 >> TypeScript, LESS, Pretty JSON, JavaScriptNext, SublimeLinter 3 (or Sublime-JSHint), HTML-CSS-JS Prettify(npm -g install js-beautify), MarkdownTOC, JSX
+>> SublimeText-Nodejs(package name: Nodejs, npm install -g commander@"~2.9.0" uglify-js@"~2.6.0", config User -> Nodejs.sublime-settings and Nodejs.sublime-build)
 
 ### vs2017
 >> 单个组件 - 代码工具 - 类设计器
