@@ -76,6 +76,8 @@ ssh -T git@git.coding.net
 
 ### Chocolatey
 > [Chocolatey](https://chocolatey.org/)
+> Install with PowerShell.exe (Admin)
+>> Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 > choco install -y nodejs.install python2
 
 ## 开发相关软件
