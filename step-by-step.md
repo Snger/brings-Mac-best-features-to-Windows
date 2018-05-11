@@ -54,6 +54,8 @@
 > wpm install ip address
 
 ### gitHub
+> gitignore global
+	git config --global core.excludesfile ~/.gitignore
 > - ssh [help](https://help.github.com/articles/connecting-to-github-with-ssh/)
 ````bash
 mkdir .ssh & cd .ssh
