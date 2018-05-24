@@ -18,6 +18,13 @@ refreshShell() {
     source ~/.babunrc
 }
 
+copy-path() {
+    pwd | pbcopy;
+}
+paste-path() {
+    cd $(pbpaste);
+}
+
 tmux-dev(){
   tmux \
   new -s workspace -n happycoding \; \
