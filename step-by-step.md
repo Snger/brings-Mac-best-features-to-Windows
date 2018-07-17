@@ -91,7 +91,7 @@ ssh -T git@git.coding.net
 > npm config set disturl https://npm.taobao.org/dist
 
 ### sublime text 3
-> - package control
+#### package control
 ````
 - Ctrl+`
 - subline text3
@@ -99,12 +99,21 @@ ssh -T git@git.coding.net
 - subline text2
 - import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())
 ````
->- Install Package
+#### theme
+Locate your Sublime Text Packages directory by using the menu item Preferences -> Browse Packages....
+Then, clone the repository using this command:
+````cmd
+git clone https://github.com/Snger/afterglow-theme/ "Theme - Afterglow"
+````
+#### Install Package
 >> NeoVintageous, Emacs Pro Essentials(sublemacspro)
 >> ConvertToUTF8, BracketHighlighter, SidebarEnhancements, afterglow-theme, Compare Side-By-Side, Sublime SFTP, DocBlockr
 >> SyncedSideBar
 >> TypeScript, LESS, Pretty JSON, JavaScriptNext, SublimeLinter 3 (or Sublime-JSHint), HTML-CSS-JS Prettify(npm -g install js-beautify), MarkdownTOC, JSX
 >> SublimeText-Nodejs(package name: Nodejs, npm install -g commander@"~2.9.0" uglify-js@"~2.6.0", config User -> Nodejs.sublime-settings and Nodejs.sublime-build)
+#### config
+> 1. theme, first plz.
+> 2. color_scheme 
 
 ### vs2017
 >> 单个组件 - 代码工具 - 类设计器
